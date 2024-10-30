@@ -221,6 +221,16 @@ git commit -m "初回コミット"
 
 # プッシュ
 
+👇　以下のコマンドを打鍵してください  
+
+```shell
+# リモートリポジトリ名の確認
+git remote -v
+
+# ブランチ名の確認
+git branch -a
+```
+
 👇　以下のコマンドを打鍵してください（リモートリポジトリに変更を保存します）  
 
 書式：  
@@ -232,5 +242,5 @@ git push {リポジトリ名} {<ローカルブランチ名}:{リモートブラ
 例：  
 
 ```shell
-git push origin main:main
+git push origin main
 ```
