@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c70y7o018plk1"]
+
+[node name="👥Staff" type="Node2D"]
+
+[node name="⚙Config" type="Node" parent="."]
+
+[node name="🐵Monkey" type="Node" parent="."]
+
+[node name="Grid" type="Sprite2D" parent="."]
+
+[node name="👤Illustrator" type="Sprite2D" parent="."]
+
+[node name="👤Musician" type="Node" parent="."]
+
+[node name="👤Programmer" type="Node" parent="."]
+
+[node name="👤ScenarioWriter" type="Node" parent="."]
+
+[node name="👤TelopCoordinator" type="CanvasLayer" parent="."]
+
+[node name="👤Scorer" type="Node" parent="."]
