@@ -81,6 +81,7 @@ script = null
 [node name="👤ScenarioWriter" type="Node" parent="."]
 
 [node name="🐵Monkey_🍉VisualNovel" parent="👤ScenarioWriter" instance=ExtResource("13_5s0ba")]
+script = null
 
 [node name="📂🍉VictoryBalancer" parent="👤ScenarioWriter" instance=ExtResource("19_50s4v")]
 

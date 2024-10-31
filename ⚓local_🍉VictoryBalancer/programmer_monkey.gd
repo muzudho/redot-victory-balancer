@@ -94,11 +94,12 @@ func get_all_department_names():
 	if self.all_department_names == null:
 		self.all_department_names = []	# StringName の配列
 
+		var initials = &"📗"
+		var current_node = self.monkey().of_staff().scenario_writer().owner_node()
+
 		MonkeyHelper.search_node_name_begins_with(
-				# 命令のノード名は `📗` で始まるものとする
-				&"📗",
-				# 探す場所
-				self.monkey().of_staff().scenario_writer().owner_node(),
+				initials,	# 命令のノード名は `📗` で始まるものとする
+				current_node,	# 探す場所
 				func(child_node):
 					# デパートメント名を記憶
 					self.all_department_names.append(child_node.name))

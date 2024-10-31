@@ -196,4 +196,4 @@ git push {リポジトリ名} {<ローカルブランチ名}:{リモートブラ
 git push origin master
 ```
 
-注： master ではなく main の方が良かったか？  
+注： git に `main` というリポジトリは普通無く、 master を使う  
