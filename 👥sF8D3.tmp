@@ -1,6 +1,5 @@
-[gd_scene load_steps=7 format=3 uid="uid://c70y7o018plk1"]
+[gd_scene load_steps=6 format=3 uid="uid://c70y7o018plk1"]
 
-[ext_resource type="Script" path="res://⚓local_🍉VictoryBalancer/staff_monkey.gd" id="1_u0lnk"]
 [ext_resource type="PackedScene" uid="uid://d245mt0k8bh53" path="res://🎄addon_🍉key_config/👤illustrator.tscn" id="1_y3epc"]
 [ext_resource type="PackedScene" uid="uid://c5rj8mk8bwirj" path="res://🎄addon_🍉key_config/👤musician_🌏bg_musics.tscn" id="2_vhkpm"]
 [ext_resource type="PackedScene" uid="uid://ddu67m5n2ad5u" path="res://🎄addon_🍉key_config/👤musician_🌏sound_fx.tscn" id="3_nvxgg"]
@@ -12,7 +11,6 @@
 [node name="⚙Config" type="Node" parent="."]
 
 [node name="🐵Monkey" type="Node" parent="."]
-script = ExtResource("1_u0lnk")
 
 [node name="Grid" type="Sprite2D" parent="."]
 
