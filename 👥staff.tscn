@@ -64,7 +64,6 @@ script = ExtResource("10_7cs46")
 script = ExtResource("11_3oxrd")
 
 [node name="🎬🍉KeyConfig" parent="👤Programmer" instance=ExtResource("4_31adf")]
-script = null
 
 [node name="🌏MessageWindows" parent="👤Programmer" instance=ExtResource("9_lm6w7")]
 script = null

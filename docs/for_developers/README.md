@@ -340,6 +340,17 @@ func _ready():
 	└─ programmer_monkey.gd		👈　（１）これ
 ```
 
+👇　以下の
+
+```plaintext
+[シーンウィンドウ]
+  👥Staff
+	└─ 👤Programmer
+	  └─ 🎬🍉KeyConfig    👈　（１）このノードに
+```
+
+（２） `🍋scripts\🪑grayscale_🍉key_config\👤programmer\🎬🍉key_config\key_config.gd` ファイルをアタッチしてください  
+
 # `🎄addon_🍉japanese_river`
 
 `🎄addon_🍉japanese_river` をコピーして持ってきて、自分のプロジェクト名 `🎄addon_🍉victory_balancer` などに名前を変えてください  
